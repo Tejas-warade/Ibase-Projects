@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Scorecard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title"> Score Card</h1>
+
+    <div class="scores">
+        <p>Runs: <span class="variables" id="runs">0</span></p>
+        <p>Overs: <span class="variables" id="overs">0</span>.<span class="variables" id="balls">0</span></p>
+        <p>Wickets: <span class="variables" id="wickets">0</span></p>
+    </div>
+
+    <div class="buttons">
+        <button class="btn" onclick="incrementRuns(1)">1 Run</button>
+        <button class="btn" onclick="incrementRuns(2)">2 Runs</button>
+        <button class="btn" onclick="incrementRuns(3)">3 Runs</button>
+        <button class="btn" onclick="incrementRuns(4)">4 Runs</button>
+        <button class="btn" onclick="incrementRuns(6)">6 Runs</button>
+        <button class="btn" onclick="incrementBalls()">Ball</button>
+        <button class="btn" onclick="incrementWickets()">Wicket</button>
+        <button class="btn" onclick="undoAction()">Undo</button>
+        <button class="btn" onclick="resetGame()">Reset</button>
+    </div>
+    <footer>
+        <div class="ends">
+            <p>Made by Tejas Warade @ IBase Electrosoft LLP</p>
+        </div>
+        <div class="social">
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/tejas-warade-583741215/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/Tejas-w01" target="_blank"><i class="bx bxl-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
