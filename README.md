@@ -1,5 +1,5 @@
-# Cricket-Scorecard
+# Projects at Ibase Internship:
 
-## Check at: https://cricketscorecard.netlify.app/
+## Check at: https://ibaseprojects.netlify.app/
 
-![image](https://github.com/Tejas-warade/Cricket-Scorecard/assets/108890932/35160b46-d069-4b64-9b42-3fde13d10bf3)
+<img src="img/collegewebsite.png"> </img>
